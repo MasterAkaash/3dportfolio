@@ -64,15 +64,14 @@ const About = () => {
 
       <div className=' mt-20 flex flex-wrap gap-10 '>
         {services.map((service, index) => (
-          <ServiceCard  
-            key={services.title}
-            index={index} {...service}
-          />
+           <ServiceCard key={ service.title } index=
+           {index} {...service}/>
         ))}
-
       </div>
     </>
   )
 }
 
-export default SectionWrapper( About , "about")
+// export default About
+
+export default SectionWrapper(About , "about");

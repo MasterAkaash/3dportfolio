@@ -105,11 +105,11 @@ import {
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
     {
-      name: "docker",
+      name: "Java",
       icon: docker,
     },
   ];
