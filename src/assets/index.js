@@ -46,6 +46,10 @@ import fullstackcertificate from "./certificates/fullstackcertificate.pdf";
 import resume from "./resume.pdf"
 
 
+//import project
+import hoobank from './hoobank.png'
+import portfolio from './portfolio.png'
+
 
 export {
   logo,
@@ -85,4 +89,6 @@ export {
   udemy,
   nareshit,
   resume,
+  hoobank,
+  portfolio,
 };
