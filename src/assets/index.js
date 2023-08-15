@@ -21,14 +21,31 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+
+//logo import
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import microsoft from "./company/microsoft.png";
+import devtown from "./company/devtown.png"
+import udemy from "./company/udemy.png"
+import nareshit from "./company/nareshit.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+//Certificates Import
+import devtowncertificate from "./certificates/devtowncertificate.pdf";
+import mlsacertificate from "./certificates/mlsacertificate.pdf";
+import coacertificate from "./certificates/coacertificate.pdf";
+import fullstackcertificate from "./certificates/fullstackcertificate.pdf";
+
+//resume import
+import resume from "./resume.pdf"
+
+
 
 export {
   logo,
@@ -54,9 +71,18 @@ export {
   threejs,
   meta,
   shopify,
+  microsoft,
   starbucks,
+  devtown,
   tesla,
   carrent,
   jobit,
   tripguide,
+  coacertificate,
+  devtowncertificate,
+  mlsacertificate,
+  fullstackcertificate,
+  udemy,
+  nareshit,
+  resume,
 };

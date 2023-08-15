@@ -23,6 +23,15 @@ import {
     jobit,
     tripguide,
     threejs,
+    microsoft,
+    devtown,
+    devtowncertificate,
+    coacertificate,
+    mlsacertificate,
+    fullstackcertificate,
+    udemy,
+    nareshit,
+    resume
   } from "../assets";
   
   export const navLinks = [
@@ -32,11 +41,16 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Certifications",
     },
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "resume",
+      title: "Resume",
+      resume: resume,
     },
   ];
   
@@ -115,51 +129,57 @@ import {
   ];
   
   const experiences = [
+
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full Stack Web Developer",
+      company_name: "TheCoding.dev",
+      icon: udemy,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2020 - May 2020",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
+      certificate: fullstackcertificate,
+
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Microsoft Learn Student Ambassador",
+      company_name: "Microsoft",
+      icon: microsoft,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "July 2023 - July 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
+      certificate: mlsacertificate,
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "HotStar Clone using HTML,CSS and JavaScript ",
+      company_name: "Devtown",
+      icon: devtown,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "July 2023 - July 2023",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+      certificate: devtowncertificate,
+    },
+  
+    {
+      title: "Full Stack Java Developer",
+      company_name: "Naresh IT",
+      icon: nareshit,
+      iconBg: "#E6DEDD",
+      date: "January 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

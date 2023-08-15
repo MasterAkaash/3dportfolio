@@ -16,7 +16,7 @@ const ExperienceCard= ({ experience }) =>  (
     iconStyle={{background:experience.iconBg}}
     icon={
       <div className=" flex justify-center items-center w-full h-full">
-        <img src={experience.icon} alt={experience.company_name}
+        <img src={experience.icon} alt={experience.company_name} 
           className="w-[60%] h-[60%] object-contain" 
         />
       </div>
@@ -29,6 +29,14 @@ const ExperienceCard= ({ experience }) =>  (
     <p className=" text-secondary text-[16px]  font-semibold" style={{ margin:0}}>
       {experience.company_name}
     </p>
+    <a href={experience.certificate} download="certificate" target="_blank">
+      <button 
+        class="bg-blue-500 mt-2  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      > 
+        
+        Download Certificate
+      </button>
+    </a>
   </div>    
 
   <ul className=" mt-5 list-disc ml-5 space-y-2">
@@ -46,11 +54,11 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()} >
       <p className={styles.sectionSubText}>  
-          What I have done so far
+          What Certificates I have earned so far?
         </p>
 
         <h2 className={styles.sectionHeadText}>
-          Work Experience.
+         CERTIFICATIONS
         </h2>
       </motion.div>
 
